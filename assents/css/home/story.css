@@ -1,7 +1,5 @@
 .story-container {
     align-items: center;
-    grid-template-columns: 2fr 1fr;
-    padding: 100px;
 }
 
 .story-text {
@@ -9,10 +7,31 @@
     flex-direction: column;
     gap: 30px;
     padding: 50px 80px 30px;
-    width: 68ch;
 }
 
 .story-img {
-    max-width: 100%;
-    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story-item-img1 {
+    object-position: 0 40%;
+}
+
+.story-item-img2 {
+    object-position: 0 25%;
+}
+
+/* media query 800px */
+
+@media (max-width: 800px) {
+    .story-text {
+        padding: 50px 30px;
+    }
+
+    .story-img img {
+        width: 80%;
+        height: 350px;
+    }
 }

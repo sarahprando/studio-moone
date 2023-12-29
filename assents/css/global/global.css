@@ -21,7 +21,7 @@ img {
 .container {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 30px 30px;
+    padding: 50px 30px;
 }
 
 .grid-two-col {
@@ -48,7 +48,6 @@ img {
 /* media query 800px */
 
 @media (max-width: 800px) {
-
     /* btn */
     .btn {
         color: var(--cor-2);
