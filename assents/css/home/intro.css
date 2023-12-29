@@ -1,14 +1,5 @@
-.intro {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 30px 30px;
-}
-
 .intro-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     align-items: end;
-    gap: 30px;
 }
 
 .intro-text {
@@ -18,28 +9,21 @@
     flex-wrap: wrap;
 }
 
+/* media query 800px */
+
 @media (max-width: 800px) {
-    .intro {
+
+    #intro {
         display: flex;
         justify-content: center;
-        padding: 15px;
     }
 
     .intro-container,
     .intro-text {
-        grid-template-columns: 1fr;
         align-items: center;
         text-align: center;
     }
-
-    .intro-text h1 {
-        font-size: 2rem;
-    }
-
-    .intro-text p {
-        font-size: 0.85rem;
-    }
-
+    
     .intro-text {
         order: 2;
     }
