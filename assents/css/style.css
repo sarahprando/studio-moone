@@ -11,3 +11,7 @@
 /* fonts */
 
 @import url(./utilities/fonts.css);
+
+/* home */
+
+@import url(./home/intro.css);

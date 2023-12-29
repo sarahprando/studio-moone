@@ -1,5 +1,30 @@
 body {
-    background: var(--cor-0);
+    background: var(--cor-1);
+    color: var(--cor-2);
     margin: 0;
-    height: 1280px;
+}
+
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    border: 1px solid var(--cor-2);
+    padding: 15px;
+    background: transparent;
+    max-width: max-content;
+}
+
+.btn:hover {
+    color: var(--cor-0);
+    background: var(--cor-2);
+    transition: 0.5s;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
 }
