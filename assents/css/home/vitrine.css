@@ -1,0 +1,14 @@
+.vitrine-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+.vitrine-container h1 {
+    margin-bottom: 30px;
+}
+
+.vitrine-container p {
+    margin-bottom: 50px;
+}

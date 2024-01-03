@@ -25,8 +25,14 @@
 /* media query 800px */
 
 @media (max-width: 800px) {
+
+    #header {
+        box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    }
+
     .header-container {
         justify-content: center;
+        padding: 30px;
     }
 
     .header-navegation {
