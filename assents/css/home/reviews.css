@@ -1,0 +1,67 @@
+.reviews-container {
+    display: grid;
+    grid-template-areas:
+        "client1 client2 client3"
+        "review1 review2 review3";
+    column-gap: 150px;
+    row-gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.reviews img {
+    align-self: center;
+    width: 265px;
+    height: 295px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.client1 {
+    grid-area: client1;
+}
+
+.client2 {
+    grid-area: client2;
+}
+
+.client3 {
+    grid-area: client3;
+}
+
+.review1 {
+    grid-area: review1;
+}
+
+.review2 {
+    grid-area: review2;
+}
+
+.review3 {
+    grid-area: review3;
+}
+
+.review1,
+.review2,
+.review3 {
+    width: 200px;
+    justify-self: center;
+}
+
+/* media queria 850px */
+
+@media (max-width: 850px) {
+
+    .reviews-container {
+        column-gap: 50px;
+        row-gap: 10px;
+        justify-content: start;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+
+}
