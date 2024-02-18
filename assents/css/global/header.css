@@ -37,7 +37,7 @@
     background: transparent;
     border-color: transparent;
     outline: 0;
-    transition: 2s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 /* media query 800px */
