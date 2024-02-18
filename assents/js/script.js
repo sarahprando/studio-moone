@@ -1,11 +1,11 @@
 // ---- search ---- // 
 
 const lupaSearch = document.querySelector('.search img');
-const search = document.querySelector('.search input');
+const inputSearch = document.querySelector('.search input');
 let check = 0;
 
 function searchOpen(event) {
-    search.classList.toggle('ativo');
+    inputSearch.classList.toggle('ativo');
 }
 
 function searchCheck(event) {
@@ -14,14 +14,14 @@ function searchCheck(event) {
 
 function searchClose(event) {
     if (check == 0) {
-        search.classList.toggle('ativo');
+        inputSearch.classList.remove('ativo');
     }
 }
 
 lupaSearch.addEventListener('mouseover', searchOpen);
 
-search.addEventListener('mouseout', searchClose);
+inputSearch.addEventListener('mouseout', searchClose);
 
-search.addEventListener('click', searchCheck);
+inputSearch.addEventListener('click', searchCheck);
 
 
