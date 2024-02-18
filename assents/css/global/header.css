@@ -22,6 +22,23 @@
     background-color: var(--cor-1);
 }
 
+.search input {
+    display: none;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--cor-2);
+}
+
+.search input.ativo {
+    display: block;
+    background: transparent;
+    border-color: transparent;
+    outline: 0;
+    transition: 2s ease-in-out;
+}
 
 /* media query 800px */
 
